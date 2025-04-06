@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Sabor & Arte</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <nav>
+            <div class="left">
+                <p>Sabor & Arte</p>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li>
+                        <a href="#home">
+                            <div class="img-li">
+                                <img src="./assets/icons/house.svg" alt="ícone de casa">
+                            </div>
+
+                            <p>Home</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about">Sobre Nós</a>
+                    </li>
+
+                    <li>
+                        <a href="#lunch">Cardápio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                    <li>
+                        <button id="reserve-one">FAÇA SUA RESERVA</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="icon-menu">
+                <img src="./assets/icons/menu-aberto 1.svg" alt="">
+            </div>
+
+            <div class="links-mobile">
+                <div class="img-mobile-x">
+                    <img src="./assets/icons/x 1.svg" alt="">
+
+                </div>
+                <ul id="ul">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#lunch">Cardápio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#reserve">Reserva</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main id="home">
+            <div class="title">
+                <h1>Garantia de Sabor <br> e Qualidade</h1>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="subtitle">
+                <h3>Todos os Dias</h3>
+            </div>
+
+        </main>
+
+        <section class="about" id="about">
+            <div class="about-we">
+                <div class="title">
+                    <h2>Sobre Nós</h2>
+                </div>
+
+                <div class="description-about-we">
+                    <p>
+                        Bem-vindo ao Sabor & Arte, um espaço onde a paixão pela gastronomia se transforma em
+                        experiências inesquecíveis. Buscamos oferecer pratos preparados com ingredientes frescos e
+                        selecionados, proporcionando sabores autênticos e momentos especiais para nossos clientes.
+                        <br><br>
+                        Com um cardápio diversificado, unimos tradição e inovação para surpreender seu paladar a cada
+                        visita.
+                        <br><br>
+                        Aqui no Sabor & Arte, acreditamos que boa comida deve ser acompanhada de um excelente
+                        atendimento. Nossa equipe está sempre pronta para recebê-lo com um sorriso e garantir que sua
+                        experiência seja única.
+                        Venha nos visitar e descubra o verdadeiro sabor da hospitalidade!
+                    </p>
+                </div>
+
+                <div class="btn-about-we">
+                    <button id="btn-about">NOSSO CARDÁPIO</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="reserve" id="reserve">
+            <div class="opening-hours">
+                <div class="title-time">
+                    <h4>Horário de Funcionamento</h4>
+                </div>
+
+                <div class="description-time">
+                    <p>
+                        Segundas - Sextas
+                        <br>
+                        <span>11:00 - 14:00 (almoço)</span>
+                        <br>
+                        <span>19:00 - 23:00 (Happy hour e Jantar)</span>
+                    </p>
+                </div>
+
+                <div class="description-time">
+                    <p>
+                        Sabados - Domingos
+                        <br>
+                        <span>11:00 - 14:00 (almoço)</span>
+                        <br>
+                        <span>19:00 - 00:00 (Happy hour e Jantar)</span>
+                    </p>
+                </div>
+
+                <div class="line-time"></div>
+
+                <div class="number-contact">
+                    <img src="./assets/icons/whatsapp.svg" alt="Ícone do Whatsapp">
+                    <p>(51) 1234-5678</p>
+                    <p>Faça sua Reserva</p>
+                </div>
+            </div>
+
+            <div class="make-reserve">
+                <form action="">
+                    <fieldset>
+                        <legend>Faça sua Reserva</legend>
+
+                        <div class="input-wrapper">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" placeholder="Digite seu nome">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="cellphone">Celular</label>
+                            <input type="tel" id="cellphone" placeholder="Digite seu número do Whatsapp">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="Digite seu melhor e-mail">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="number-people">Número de Pessoas na Mesa</label>
+                            <input type="number" id="number-people" placeholder="Digite o número de pessoas">
+                        </div>
+
+                        <div class="date-wrapper">
+                            <div class="input-wrapper">
+                                <label for="date">Data</label>
+                                <input type="date" id="date">
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="time">Horário</label>
+                                <input type="time" id="time">
+                            </div>
+                        </div>
+
+                        <div class="btn-reserve">
+                            <button>Reservar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <section class="lunch" id="lunch">
+
+            <div class="title-foods-one">
+                <h2>Cardápio Almoço</h2>
+            </div>
+
+            <div class="img-lunch">
+                <img src="./assets/cardapio 1.png" alt="">
+            </div>
+
+            <div class="container">
+                <div class="img-foods">
+                    <img src="./assets/almoço.jpg" alt="">
+                </div>
+
+                <div class="about-foods">
+                    <div class="title-foods-two">
+                        <h2>Almoço: </h2>
+                    </div>
+
+                    <div class="description-foods">
+                        <p>
+                            Nosso cardápio de almoço é cuidadosamente elaborado para oferecer uma experiência
+                            gastronômica completa e saborosa.
+                            <br><br>
+                            Com ingredientes frescos e selecionados, preparamos pratos que combinam o melhor da
+                            culinária tradicional com toques modernos e criativos.
+                            <br><br>
+                            De segunda a segunda, você encontra opções variadas que incluem saladas nutritivas, pratos
+                            principais com carnes, aves e peixes, além de acompanhamentos deliciosos e sobremesas
+                            irresistíveis. Tudo preparado com o carinho e a qualidade que você merece.
+                        </p>
+                    </div>
+
+                    <div class="btn-foods">
+                        <button class="btn-lunch">ACESSE O CARDÁPIO</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dinner">
+            <div class="title-foods-one">
+                <h2>Cardápio Jantar</h2>
+            </div>
+
+            <div class="img-lunch2">
+                <img src="./assets/cardapio 2.png" alt="">
+            </div>
+
+            <div class="container">
+                <div class="img-foods">
+                    <img src="./assets/jantar.jpg" alt="">
+                </div>
+
+                <div class="about-foods">
+                    <div class="title-foods-two">
+                        <h2>Jantar:</h2>
+                    </div>
+
+                    <div class="description-foods">
+                        <p>
+                            Nosso cardápio de jantar é um convite a uma experiência gastronômica sofisticada e
+                            memorável.
+                            <br><br>
+                            Com um foco em ingredientes selecionados e técnicas refinadas, preparamos um menu que
+                            combina clássicos com toques contemporâneos.
+                            <br><br>
+                            De segunda a segunda, oferecemos uma seleção de criações culinárias que despertam os
+                            sentidos, acompanhadas de uma carta de vinhos cuidadosamente escolhida. Nosso ambiente
+                            acolhedor e serviço atencioso complementam a experiência, criando o cenário perfeito para
+                            uma noite especial.
+                        </p>
+                    </div>
+
+                    <div class="btn-foods">
+                        <button class="btn-lunch2">ACESSE O CARDÁPIO</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="title-logo">
+                <p>Sabor <br> & <br> Arte</p>
+                <p>Sabor & Arte</p>
+            </div>
+            <div class="social-links-footer">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre Nós</a>
+                <a href="#lunch">Cardápio</a>
+            </div>
+            <div class="icons-footer">
+                <div class="contact">
+                    <img src="./assets/icons/whatsapp.svg" alt="Logo do WhatsApp">
+                    <p>(51) 1234-5678</p>
+                </div>
+
+                <div class="contact">
+                    <img src="./assets/icons/instagram 1.svg" alt="Logo do instagram">
+                    <p>devwebschloesser@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="icon-wats">
+            <a href="tel:+5581995166980">
+                <img src="./assets/icons/whatsapp.svg" alt="icone do whatsapp flutuante">
+            </a>
+        </div>
+
+        <div class="icon-arrow">
+            <a href="#home">
+                <img src="./assets/icons/angulo-da-seta-para-cima 1.svg" alt="icone de seta flutuante">
+            </a>
+        </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

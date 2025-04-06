@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --color-orange: #FF7F10;
+    --color-button: #6D0A33;
+    --background-form: #1C1B1B;
+    --color-text: #FFFFFF;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+ body {
+    overflow-x: hidden;
+    background-color: #c3c3c3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.icon-wats {
+    display: none;
+}
+
+.icon-arrow {
+    display: none;
+}
