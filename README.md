@@ -18,6 +18,13 @@ O **Sabor & Arte** é um projeto desenvolvido para explorar conceitos essenciais
 ✅ Aplicar boas práticas de **UI/UX**  
 
 ---
+<br>
+
+![saboresaude1](https://github.com/user-attachments/assets/46f43732-849f-4cca-bf97-7a0f7f71944b)
+![saboresaude2](https://github.com/user-attachments/assets/f80edd10-1875-4db5-a878-494a7ac39fa6)
+![saboresaude3](https://github.com/user-attachments/assets/3960cec7-8411-4ee8-b121-65c77c8dd52f)
+
+<br>
 
 ## 🛠️ Tecnologias Utilizadas
 
